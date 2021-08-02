@@ -10,5 +10,6 @@ public interface WorkstationMapper {
     WorkstationMapper INSTANCE = Mappers.getMapper(WorkstationMapper.class);
 
     Workstation toModel(WorkstationDTO workstationDTO);
+
     WorkstationDTO toDTO(Workstation workstation);
 }
